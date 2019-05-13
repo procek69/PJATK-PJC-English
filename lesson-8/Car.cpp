@@ -7,7 +7,7 @@ void Car::drive()
 {
 	for (std::vector<VehiclePart*>::iterator it = parts.begin(); it != parts.end(); ++it)
 	{
-		if ((*it)->name == "silnik")
+		if ((*it)->name == "engine")
 		{
 			std::cout << "Car is running" << std::endl;
 			return;

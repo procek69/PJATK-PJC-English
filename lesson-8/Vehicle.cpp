@@ -15,7 +15,7 @@ void Vehicle::mount(VehiclePart *vehiclePart)
 {
 	std::vector<VehiclePart*>::iterator position = std::find(parts.begin(), parts.end(), vehiclePart);
 	if (position == parts.end()) // There is no such part yet
-		parts.push_back(VehiclePart);
+		parts.push_back(vehiclePart);
 }
 
 void Vehicle::unmount(VehiclePart *vehiclePart)

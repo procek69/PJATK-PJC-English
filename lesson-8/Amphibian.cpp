@@ -17,8 +17,8 @@ void Amphibian::move(terrain_mode terrain)
 
 void Amphibian::mount(VehiclePart* part)
 {
-	this->Car::mount(czesc);
-	this->Car::mount(czesc);
+	this->Car::mount(part);
+	this->Boat::mount(part);
 }
 
 Amphibian::Amphibian()
