@@ -1,4 +1,4 @@
-# PJATK-PJC-Dzienne
+# PJATK-PJC-English
 
 Repository contains solutions (there is not only one good solution),
 
